@@ -64,7 +64,7 @@ class _AdminPageState extends State<AdminPage> {
                   createdAt = DateTime.fromMillisecondsSinceEpoch(
                       (createdAtRaw['_seconds'] * 1000).toInt());
                 } else {
-                  print("⚠️ createdAt نوع غير معروف: $createdAtRaw");
+                  print("createdAt نوع غير معروف: $createdAtRaw");
                   createdAt = null;
                 }
 
